@@ -1,6 +1,6 @@
 /**2.2 - . Write a function that accept parameter as number 
  * and if the parameter is not null or undefined it will return the number else return*/
-function foo(input:number) {
+function fullDetails(input:number) {
     if (input != null || input===undefined){
         return input;
     }else{
@@ -8,7 +8,7 @@ function foo(input:number) {
     }
     
 }
-console.log(foo(2));
+console.log(fullDetails(2));
 
 /**2.3Write a typescript program that will accept name as string, age as number and isAutomatedBefore as boolean and return as 
 "My name is `${name}1. I am `${age}` years old. I have done/not done automation before" based on isAutomatedBefore is true or false */
